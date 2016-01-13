@@ -46,7 +46,7 @@ bind_certificate
 
 ### Attribute Parameters
 
-- hash: the certificate hash
+- hash: the certificate hash (aka thumbprint. See [msdn documentation](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx))
 - port: the port
 - ip_address: the ip address to bind to. Defaults to 0.0.0.0 (any ip address)
 - app_guid: the application guid. Defaults to 00000000-0000-0000-0000-000000000000 (any application)
